@@ -1,6 +1,4 @@
-/*
-Strings are immutable in jave bcz multiple string references can point to the same string constant which can result in inconsistency.
-*/
+//Strings are immutable in jave bcz multiple string references can point to the same string constant which can result in inconsistency.
 import java.lang.System;
 import java.util.Scanner;
 public class strings
