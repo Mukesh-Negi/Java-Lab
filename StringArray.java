@@ -16,7 +16,7 @@ public class StringArray
 				ans = sa[i];
 			}
 		}
-		System.out.println("Larget Lexographical order string :-> " + ans);// output :-> "zzzz"
+		System.out.println("Larget Lexicographical order string :-> " + ans); // output :-> "zzzz"
 
 	}
 }
