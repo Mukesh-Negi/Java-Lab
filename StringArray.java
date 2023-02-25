@@ -1,7 +1,7 @@
 import java.lang.System;
 import java.util.Scanner;
 import java.util.Arrays;
-// wap to find Largest string in a string array according to lexographical order.
+// WAP to find Largest string in a string array according to Lexicographical order.
 public class StringArray
 {
 	public static void main(String[] args)
@@ -16,7 +16,7 @@ public class StringArray
 				ans = sa[i];
 			}
 		}
-		System.out.println("Larget Lexicographical order string :-> " + ans); // output :-> "zzzz"
+		System.out.println(" Lexicographically Largest String :-> " + ans); // output :-> "zzzz"
 
 	}
 }
