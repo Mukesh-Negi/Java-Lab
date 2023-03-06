@@ -1,6 +1,9 @@
 // WAP to count  Number of upper and lower case characters in a string.
 import java.lang.System;
 import java.util.Scanner;
+/*
+charAt(i) method returns the charcter at index 'i' from the string.
+*/
 class countUpperLower
 {
     public static void main(String args[])
