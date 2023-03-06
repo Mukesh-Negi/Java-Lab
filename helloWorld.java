@@ -18,6 +18,3 @@ class helloWorld {
  * 3. javac a.java --> a.java is filename
  * 4. java Main ----> Main is the name of class
  */
-// WAP to check whether the given string is in upper case or lower case
-// WAP to replace all the spaces in the string with a asterisk.
-// WAP to reverse the case of string . lower to upper case and upper to lower case.
