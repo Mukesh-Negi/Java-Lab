@@ -1,11 +1,13 @@
 /*
- * type wrappers are clases which are used to convert primitive data types to objects.
- * boxing is the process by which primitive data types are converted into objects.
- * auto boxing : the conversion occurs automatically.
+                       Type Wrappers in Java
+
+ * Type wrappers are clases which are used to convert primitive data types to objects.
+ * Boxing is the process by which primitive data types are converted into objects.
+ * Auto  boxing : the conversion occurs automatically.
  * 
- * purpose of type wrappers:
- * 1. objects are needed to call a function by refrence 
- * 2. collection framework need objects 
+ *              Purpose of Type Wrappers:
+ * 1. Objects are needed to call a function by refrence 
+ * 2. Collection framework need objects 
  * 3. java.util package needs objects.
  * 4. objects are needed for syncronization.
  */
