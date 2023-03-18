@@ -19,13 +19,29 @@ class typeWrapper
 
     public static void main(String[] args) {
        int a = 10, b = 5;
+
+       typeWrapper obj=new typeWrapper();
+       
        System.out.println("INTIAL VALUE :->");
        System.out.println("a = " +a +" b = " +b);
-       int temp;
-       temp = a;
-       a = b;
-       b = temp;
+    //    int temp;
+    //    temp = a;
+    //    a = b;
+    //    b = temp;
+    Integer obj1=10;
+    Integer obj2=20;
+        sw(obj1,obj2);
+
        System.out.println("AFTER SWAP :->");
        System.out.println("a = " +a +" b = " +b);
+    
+    
+
+    }
+
+    public static void sw(Integer i, Integer j) {
+        Integer temp=i;
+        i=j;
+        j=temp;
     }
 }
