@@ -1,4 +1,4 @@
-// WAP to create an array of size 10 and take input from user.
+// WAP to create an array of size 10 and take input from user an print that array.
 import java.lang.System;
 import java.util.Arrays;
 import java.util.Scanner;
