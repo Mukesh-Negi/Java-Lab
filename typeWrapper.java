@@ -3,7 +3,9 @@
 
  * Type wrappers are clases which are used to convert primitive data types to objects.
  * Boxing is the process by which primitive data types are converted into objects.
- * Auto  boxing : the conversion occurs automatically.
+ * Auto  boxing : the conversion of primitive to objects occurs automatically.
+ * 
+ * Unboxing : the conversion of objects into primitive data types.
  * 
  *              Purpose of Type Wrappers:
  * 1. Objects are needed to call a function by refrence 
@@ -11,39 +13,24 @@
  * 3. java.util package needs objects.
  * 4. objects are needed for syncronization.
  */
-// WAP to swap to integer variables.
+
 import java.lang.System;
 import java.util.Scanner;
-
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 class typeWrapper
 {
+    public static void main(String args[])
+    {
+                         // Auto - boxing
+        int a = 10;
+        Integer intObj1 = Integer.valueOf(a); // explicit conversion
+        Integer intObj2 = a; // auto-boxing
+        System.out.println(intObj1 + " " + intObj2);
 
-    public static void main(String[] args) {
-       int a = 10, b = 5;
+                        // Unboxing
+        Integer intObj3 = 100;
+        int i = intObj3.intValue(); // Explicit conversion
+        int j = intObj3;// unboxing
+        System.out.println(i + " " + j);
 
-       typeWrapper obj=new typeWrapper();
-       
-       System.out.println("INTIAL VALUE :->");
-       System.out.println("a = " +a +" b = " +b);
-    //    int temp;
-    //    temp = a;
-    //    a = b;
-    //    b = temp;
-    Integer obj1=10;
-    Integer obj2=20;
-        sw(obj1,obj2);
-
-       System.out.println("AFTER SWAP :->");
-       System.out.println("a = " +a +" b = " +b);
-    
-    
-
-    }
-
-    public static void sw(Integer i, Integer j) {
-        Integer temp=i;
-        i=j;
-        j=temp;
     }
 }
